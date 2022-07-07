@@ -6,3 +6,4 @@ app = Flask(__name__)
 def HelloWorld():
     text = "Hello world!"
     return jsonify(text)
+app.run()
