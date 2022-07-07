@@ -12,11 +12,7 @@
         }
         function adoptapi(){
             fetch("https://grox16.github.io/flask1/admin", {
-                method: "GET",
-                body: JSON.stringify(data),
-                header: {
-                "Content-Type": "application/json; charset=UTF-8",
-                },
+                method: "GET"
             })
                 .then((response) => response.json())
                 .then((data) => {
